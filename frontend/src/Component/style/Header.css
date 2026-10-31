@@ -2,8 +2,11 @@
 /* ===== FitCheck AI — Compact Glass Header ===== */
 
 :root {
-  --fc-lime: #a3ff3f;
-  --fc-text: #f7f9f5;
+  --fc-lime: #2f8cff;
+  --fc-text: #f7f9ff;
+  --fc-blue: #2f8cff;
+  --fc-cyan: #27d7ff;
+  --fc-blue-gradient: linear-gradient(115deg, #2878ff 0%, #19c5f5 100%);
 }
 
 /* Header wrapper */
@@ -157,7 +160,7 @@
   min-height: 37px;
   padding: 0 13px;
 
-  border: 1px solid rgba(163, 255, 63, 0.4);
+  border: 1px solid rgba(39, 215, 255, 0.8);
   border-radius: 13px;
 
   background: rgba(163, 255, 63, 0.1);
@@ -181,12 +184,14 @@
 }
 
 .fc-header-cta:hover {
-  transform: translateY(-1px);
-
-  border-color: rgba(163, 255, 63, 0.78);
-  background: rgba(163, 255, 63, 0.18);
-
-  box-shadow: 0 0 18px rgba(163, 255, 63, 0.1);
+    transform: translateY(-1px);
+  border-color: rgba(39, 215, 255, 0.8);
+  background: linear-gradient(
+    115deg,
+    rgba(40, 120, 255, 0.28) 0%,
+    rgba(25, 197, 245, 0.2) 100%
+  );
+  box-shadow: 0 0 18px rgba(47, 140, 255, 0.18);
 }
 
 .fc-header-cta:hover span {

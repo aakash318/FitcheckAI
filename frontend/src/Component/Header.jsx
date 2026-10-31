@@ -25,7 +25,7 @@ export default function Header() {
           ))}
         </div>
 
-        <a className="fc-header-cta" href="#start-session">
+        <a className="fc-header-cta" href="sessionroom">
           Start Session <span aria-hidden="true">↗</span>
         </a>
       </nav>

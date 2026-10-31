@@ -303,7 +303,19 @@ export default function HeroSection() {
             Meet your
             <br />
 
-            <span>FitCheck AI.</span>
+            <span className="fc-title-video-wrap">
+              <video
+                className="fc-title-video"
+                src="title.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="auto"
+                aria-hidden="true"
+              />
+              <span className="fc-title-video-text">_____________</span>
+            </span>
           </h1>
 
           <p className="fc-hero-tagline">
@@ -455,13 +467,7 @@ export default function HeroSection() {
 
       </div>
 
-      {/* BOTTOM BRAND DETAIL */}
-
-      <div className="fc-hero-footer">
-        <span>AI-POWERED FITNESS</span>
-        <span className="fc-footer-line" />
-        <span>YOUR MOVEMENT. YOUR PROGRESS.</span>
-      </div>
+  
 
     </section>
   );

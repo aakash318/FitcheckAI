@@ -4,16 +4,40 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Header from './Component/Header'
 import HeroSection from './Component/HeroSection'
+import FitCheckLandingPage from './Component/FitCheckLandingPage'
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import SessionRoom from './session/SessionRoom'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+        <BrowserRouter>
       <Header />
-      <HeroSection />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <FitCheckLandingPage />
+            </>
+          }
+        />
+
+        <Route
+          path="/sessionroom"
+          element={<SessionRoom />}
+        />
+      </Routes>
+    </BrowserRouter>
+       
+      
     </>
+     
   )
 }
 

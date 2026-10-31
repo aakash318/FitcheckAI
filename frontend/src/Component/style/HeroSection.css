@@ -4,14 +4,14 @@
 ========================================= */
 
 :root {
-  --fc-bg: #070a07;
-  --fc-bg-soft: #0c110c;
-  --fc-card: rgba(15, 22, 14, 0.88);
-  --fc-green: #a3ff3f;
-  --fc-green-soft: #d1ffad;
-  --fc-text: #f4f7f0;
-  --fc-muted: #9ba496;
-  --fc-border: rgba(163, 255, 63, 0.14);
+  --fc-bg: #070a12;
+  --fc-bg-soft: #0c111f;
+  --fc-card: rgba(15, 22, 35, 0.88);
+  --fc-green: #168bff;
+  --fc-green-soft: #b9e4ff;
+  --fc-text: #f4f8ff;
+  --fc-muted: #9ba9bf;
+  --fc-border: rgba(22, 139, 255, 0.14);
 }
 
 /* GLOBAL */
@@ -66,15 +66,15 @@ body {
   background:
     radial-gradient(
       ellipse at 75% 42%,
-      rgba(74, 145, 31, 0.16),
+      rgba(25, 105, 190, 0.16),
       transparent 37%
     ),
     radial-gradient(
       ellipse at 18% 85%,
-      rgba(36, 105, 25, 0.12),
+      rgba(20, 75, 150, 0.12),
       transparent 35%
     ),
-    #070a07;
+    #070a12;
 }
 
 .fc-hero-grid {
@@ -86,12 +86,12 @@ body {
 
   background-image:
     linear-gradient(
-      rgba(163, 255, 63, 0.035) 1px,
+      rgba(22, 139, 255, 0.035) 1px,
       transparent 1px
     ),
     linear-gradient(
       90deg,
-      rgba(163, 255, 63, 0.035) 1px,
+      rgba(22, 139, 255, 0.035) 1px,
       transparent 1px
     );
 
@@ -122,7 +122,7 @@ body {
   top: 48%;
   left: -280px;
 
-  background: rgba(64, 160, 37, 0.08);
+  background: rgba(25, 115, 220, 0.08);
 }
 
 .fc-hero-glow-right {
@@ -132,7 +132,7 @@ body {
   width: 500px;
   height: 500px;
 
-  background: rgba(110, 255, 35, 0.10);
+  background: rgba(0, 170, 255, 0.10);
 }
 
 /* NAVBAR */
@@ -191,7 +191,7 @@ body {
 }
 
 .fc-nav-links a {
-  color: #c5cbc0;
+  color: #c5d2e4;
 
   font-size: 13px;
   font-weight: 500;
@@ -217,10 +217,10 @@ body {
   justify-content: center;
   gap: 12px;
 
-  border: 1px solid rgba(163, 255, 63, 0.40);
+  border: 1px solid rgba(22, 139, 255, 0.40);
   border-radius: 13px;
 
-  background: rgba(163, 255, 63, 0.09);
+  background: rgba(22, 139, 255, 0.09);
 
   color: var(--fc-green-soft);
 
@@ -235,7 +235,7 @@ body {
 }
 
 .fc-nav-button:hover {
-  background: rgba(163, 255, 63, 0.17);
+  background: rgba(22, 139, 255, 0.17);
   transform: translateY(-1px);
 }
 
@@ -296,7 +296,7 @@ body {
 
   background: var(--fc-green);
 
-  box-shadow: 0 0 12px rgba(163, 255, 63, 0.65);
+  box-shadow: 0 0 12px rgba(22, 139, 255, 0.65);
 }
 
 .fc-hero-title {
@@ -320,10 +320,10 @@ body {
 
   background: linear-gradient(
     105deg,
-    #e0ffca 0%,
-    #b9ff70 35%,
-    #83f52d 75%,
-    #a3ff3f 100%
+    #d8f0ff 0%,
+    #73caff 35%,
+    #168bff 75%,
+    #168bff 100%
   );
 
   -webkit-background-clip: text;
@@ -334,7 +334,7 @@ body {
 .fc-hero-tagline {
   margin: 25px 0 12px;
 
-  color: #e0e8da;
+  color: #dcecff;
 
   font-size: clamp(17px, 1.5vw, 21px);
   font-weight: 650;
@@ -389,17 +389,17 @@ body {
 }
 
 .fc-primary-button {
-  color: #101a08;
+  color: #071426;
 
   background: var(--fc-green);
 
-  box-shadow: 0 0 25px rgba(163, 255, 63, 0.10);
+  box-shadow: 0 0 25px rgba(22, 139, 255, 0.10);
 }
 
 .fc-primary-button:hover {
   transform: translateY(-3px);
 
-  box-shadow: 0 7px 30px rgba(163, 255, 63, 0.23);
+  box-shadow: 0 7px 30px rgba(22, 139, 255, 0.23);
 }
 
 .fc-primary-button span,
@@ -408,7 +408,7 @@ body {
 }
 
 .fc-secondary-button {
-  color: #e0e6dc;
+  color: #e0ebfa;
 
   border: 1px solid rgba(255, 255, 255, 0.12);
 
@@ -416,9 +416,9 @@ body {
 }
 
 .fc-secondary-button:hover {
-  border-color: rgba(163, 255, 63, 0.30);
+  border-color: rgba(22, 139, 255, 0.30);
 
-  background: rgba(163, 255, 63, 0.045);
+  background: rgba(22, 139, 255, 0.045);
 
   transform: translateY(-2px);
 }
@@ -461,13 +461,13 @@ body {
 }
 
 .fc-feature-item.is-active {
-  border-color: rgba(163, 255, 63, 0.15);
+  border-color: rgba(22, 139, 255, 0.15);
 
-  background: rgba(163, 255, 63, 0.045);
+  background: rgba(22, 139, 255, 0.045);
 }
 
 .fc-feature-item:hover {
-  background: rgba(163, 255, 63, 0.065);
+  background: rgba(22, 139, 255, 0.065);
 }
 
 .fc-feature-icon {
@@ -479,10 +479,10 @@ body {
 
   flex-shrink: 0;
 
-  border: 1px solid rgba(163, 255, 63, 0.20);
+  border: 1px solid rgba(22, 139, 255, 0.20);
   border-radius: 12px;
 
-  background: rgba(163, 255, 63, 0.07);
+  background: rgba(22, 139, 255, 0.07);
 
   color: var(--fc-green);
 
@@ -498,14 +498,14 @@ body {
 }
 
 .fc-feature-content strong {
-  color: #edf3e8;
+  color: #edf6ff;
 
   font-size: 12px;
   font-weight: 750;
 }
 
 .fc-feature-content > span {
-  color: #929b8d;
+  color: #929fb3;
 
   font-size: 11px;
   line-height: 1.6;
@@ -515,7 +515,7 @@ body {
   margin-left: auto;
   padding-left: 8px;
 
-  color: rgba(163, 255, 63, 0.60);
+  color: rgba(22, 139, 255, 0.60);
 
   font-size: 11px;
   font-weight: 800;
@@ -524,7 +524,7 @@ body {
 .fc-disclaimer {
   margin-top: 20px;
 
-  color: #737d70;
+  color: #737f96;
 
   font-size: 10px;
   line-height: 1.7;
@@ -565,7 +565,7 @@ body {
 
   background: rgba(10, 15, 9, 0.82);
 
-  color: #d3ddca;
+  color: #d3e5f7;
 
   font-size: 10px;
   font-weight: 800;
@@ -579,7 +579,7 @@ body {
   color: var(--fc-green);
 }
 
-/* Green aura behind avatar */
+/* Blue aura behind avatar */
 
 .fc-avatar-aura {
   position: absolute;
@@ -597,9 +597,9 @@ body {
 
   background: radial-gradient(
     circle,
-    rgba(91, 195, 37, 0.18) 0%,
-    rgba(75, 153, 34, 0.09) 35%,
-    rgba(51, 114, 25, 0.025) 60%,
+    rgba(20, 145, 255, 0.18) 0%,
+    rgba(20, 115, 220, 0.09) 35%,
+    rgba(15, 80, 175, 0.025) 60%,
     transparent 73%
   );
 
@@ -619,7 +619,7 @@ body {
 
   aspect-ratio: 1.8 / 1;
 
-  border: 1px solid rgba(163, 255, 63, 0.11);
+  border: 1px solid rgba(22, 139, 255, 0.11);
   border-radius: 50%;
 
   transform: translate(-50%, -50%);
@@ -634,7 +634,7 @@ body {
 .fc-ring-inner {
   width: min(83%, 480px);
 
-  border-color: rgba(163, 255, 63, 0.15);
+  border-color: rgba(22, 139, 255, 0.15);
 }
 
 /* Platform */
@@ -651,20 +651,20 @@ body {
 
   transform: translateX(-50%);
 
-  border: 1px solid rgba(163, 255, 63, 0.22);
+  border: 1px solid rgba(22, 139, 255, 0.22);
 
   border-radius: 50%;
 
   background: radial-gradient(
     ellipse at center,
-    rgba(119, 255, 53, 0.10),
+    rgba(0, 185, 255, 0.10),
     rgba(7, 10, 7, 0.03) 65%,
     transparent 75%
   );
 
   box-shadow:
-    0 -8px 35px rgba(113, 255, 63, 0.04),
-    inset 0 0 18px rgba(163, 255, 63, 0.04);
+    0 -8px 35px rgba(0, 160, 255, 0.04),
+    inset 0 0 18px rgba(22, 139, 255, 0.04);
 }
 
 /* Canvas occupies the visual stage */
@@ -700,7 +700,7 @@ body {
   align-items: center;
   gap: 12px;
 
-  color: #dce8d2;
+  color: #dcecff;
 
   font-size: 12px;
 }
@@ -713,7 +713,7 @@ body {
   width: 34px;
   height: 34px;
 
-  border: 2px solid rgba(163, 255, 63, 0.15);
+  border: 2px solid rgba(22, 139, 255, 0.15);
   border-top-color: var(--fc-green);
 
   border-radius: 50%;
@@ -744,7 +744,7 @@ body {
 
   padding: 13px 15px;
 
-  border: 1px solid rgba(163, 255, 63, 0.20);
+  border: 1px solid rgba(22, 139, 255, 0.20);
   border-radius: 16px;
 
   background: rgba(11, 17, 10, 0.92);
@@ -767,7 +767,7 @@ body {
 
   background: var(--fc-green);
 
-  color: #101a08;
+  color: #071426;
 
   font-size: 23px;
 }
@@ -779,14 +779,14 @@ body {
 }
 
 .fc-avatar-info-text strong {
-  color: #f0f6ea;
+  color: #f0f7ff;
 
   font-size: 11px;
   font-weight: 750;
 }
 
 .fc-avatar-info-text span {
-  color: #a0aa96;
+  color: #a0aec2;
 
   font-size: 10px;
 }
@@ -803,7 +803,7 @@ body {
 
   background: var(--fc-green);
 
-  box-shadow: 0 0 12px rgba(163, 255, 63, 0.75);
+  box-shadow: 0 0 12px rgba(22, 139, 255, 0.75);
 
   animation: fc-pulse 1.8s ease-in-out infinite;
 }
@@ -840,7 +840,7 @@ body {
 
   transform: translateX(-50%);
 
-  color: #7c8874;
+  color: #7c8da8;
 
   font-size: 9px;
   font-weight: 750;
@@ -874,7 +874,7 @@ body {
   align-items: center;
   gap: 18px;
 
-  color: #6e7968;
+  color: #6e7e98;
 
   font-size: 9px;
   font-weight: 750;
@@ -1195,5 +1195,113 @@ body {
   *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+}
+/* Main hero layout */
+.fc-hero-content {
+    display: grid;
+    grid-template-columns: 48% 52%;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 750px;
+}
+
+/* Left content */
+.fc-hero-copy {
+    grid-column: 1;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 620px;
+}
+
+/* Right avatar section */
+.fc-hero-visual {
+    grid-column: 2;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+/* Avatar canvas */
+.fc-character-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.fc-character-canvas canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+
+/* Video-backed title word */
+.fc-hero-title .fc-title-video-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 0 8px 8px 0;
+  border-radius: 12px;
+  vertical-align: bottom;
+  -webkit-text-fill-color: initial;
+  background: transparent;
+}
+
+.fc-title-video {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.72;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.fc-title-video-wrap::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: 12px;
+  background: linear-gradient(
+    100deg,
+    rgba(5, 18, 38, 0.22) 0%,
+    rgba(8, 50, 100, 0.08) 55%,
+    rgba(0, 190, 255, 0.2) 100%
+  );
+  pointer-events: none;
+}
+
+.fc-title-video-text {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 2px 0 0;
+  color: #d9f2ff;
+  background: linear-gradient(105deg, #d8f0ff 0%, #73caff 42%, #168bff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 28px rgba(22, 139, 255, 0.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fc-title-video {
+    display: none;
   }
 }
